@@ -1,52 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Sanchez&family=Sarala&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
-body{
-    background-color: aquamarine;
+body {
+    background: linear-gradient(118.23deg, #0060F0 1.58%, #7D97BD 99.13%);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    letter-spacing: 1px;
 }
 
-.container{
-    background-image: linear-gradient(#00000001, #00000063);
-    max-width: 1400px;
-    padding: 1%;
-    margin: 0 auto;
+header nav {
+    background: rgba(217, 217, 217, 0.1);
+    width: 100vw;
+    height: 12vh;
+    margin-bottom: 10px;
 }
 
-nav{
+header nav a {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-nav .titulo{
-    font-size: 35px;
-    font-style: italic;
-    color:#57435f;
-    font-weight: bold;
+.menu {
+    display: flex;
+    justify-content: space-around;
 }
 
-nav ul{
-    list-style: none;
+.menu a {
+    font-size: 25px;
+    font-family: 'Sarala', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #D4EDFC;
 }
 
-nav ul li{
-    display: inline-block;
+.menu a:hover {
+    background-color: rgba(217, 217, 217, 0.1);
+    padding: 25px;
+    border-radius: 40px;
+    transition: 0.2s;
 }
 
-nav ul li a{
-    padding: 5px 10px;
-    text-decoration: none;
-    font-size: 19px;
-    color: #17171bd2;
-    font-weight: bold;
-    border-radius: 10px;
-    transition: 0.6s;
+main {
+    display: flex;
+    background: rgba(217, 217, 217, 0.1);
+    height: 73vh;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-around;
 }
 
-nav ul li a:hover{
-    background-color: blue;
+.corpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.corpo h1{
+    font-family: 'Sarala', sans-serif;
+    color: #D4EDFC;
+    font-size: 30px;
+}
+
+.corpo h2 {
+    font-family: 'Sanchez', serif;
+    color: #f7f7f7;
+    font-size: 50px;
+    margin-bottom: 25px;
+}
+
+.corpo h3 {
+    font-family: 'sarala', sans-serif;
+    color: #f7f7f7;
+    padding-bottom: 10px;
+    font-size: 25px;
+}
+
+.corpo p a {
+    font-family: 'sarala', sans-serif;
+    color: #f7f7f7;
+    font-size: 20px;
+    padding: 10px;
+    line-height: 60px;
+    border-radius: 50px;
+}
+
+.corpo p a:hover {
+    background-color: rgba(255, 255, 255, 0.212);
     color: white;
+    transition: 0.3s;
+}
+
+main img {
+    display: block;
+    height: 350px;
+}
+
+footer {
+    background: rgba(217, 217, 217, 0.1);
+    margin-top: 10px;
+    height: 11.5vh;
+    width: 100vw;
+    border-color: #3085f3;
+}
+
+footer p {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #D4EDFC;
+    font-style: italic;
+    font-size: 17px;
 }
