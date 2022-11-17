@@ -12,11 +12,9 @@ body {
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
-    letter-spacing: 1px;
 }
 
 header nav {
-    background: rgba(217, 217, 217, 0.1);
     width: 100vw;
     height: 12vh;
     margin-bottom: 10px;
@@ -37,14 +35,11 @@ header nav a {
     font-size: 25px;
     font-family: 'Sarala', sans-serif;
     text-align: center;
-    text-transform: uppercase;
     color: #D4EDFC;
 }
 
 .menu a:hover {
-    background-color: rgba(217, 217, 217, 0.1);
-    padding: 25px;
-    border-radius: 40px;
+    color: chartreuse;
     transition: 0.2s;
 }
 
@@ -105,11 +100,12 @@ main img {
 }
 
 footer {
-    background: rgba(217, 217, 217, 0.1);
-    margin-top: 10px;
+    display: flex;
     height: 11.5vh;
     width: 100vw;
     border-color: #3085f3;
+    align-items: center;
+    justify-content: center;
 }
 
 footer p {
